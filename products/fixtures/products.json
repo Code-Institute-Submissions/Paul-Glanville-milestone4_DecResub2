@@ -1,0 +1,14 @@
+[{
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+        "sku": "",
+        "name": "1 Month subscription",
+        "description": "",
+        "price": 7.99,
+        "category": 6,
+        "rating": 5,
+        "image_url": "",
+        "image": ""
+    }
+}]
