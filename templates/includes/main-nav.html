@@ -14,23 +14,22 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="subscription-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Subscription Service
+                Games
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="subscription-link">
-                <a href="" class="dropdown-item">Available Services</a>
-                <a href="" class="dropdown-item">Discount Subscriptions</a>
-                <a href="" class="dropdown-item">All Subscriptions</a>
+                <a href="{% url 'products' %}?category=Games" class="dropdown-item">Games</a>
+                <a href="{% url 'products' %}?category=expansions" class="dropdown-item">Expansions</a>
+                <a href="{% url 'products' %}?category=all_content" class="dropdown-item">All Content</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="game-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Game Content
+                Subscriptions
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="game-link">
-                <a href="" class="dropdown-item">Base Game</a>
-                <a href="" class="dropdown-item">Expansions</a>
-                <a href="" class="dropdown-item">All Content</a>
+                <a href="{% url 'products' %}?category=available_services" class="dropdown-item">Available Services</a>
+                <a href="{% url 'products' %}?category=subscriptions" class="dropdown-item">Subscriptions</a>
             </div>
         </li>
 
@@ -39,9 +38,9 @@
                 Additional Content
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="extras-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Featured</a>
-                <a href="" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=featured" class="dropdown-item">Featured</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
             </div>
         </li>
     </ul>

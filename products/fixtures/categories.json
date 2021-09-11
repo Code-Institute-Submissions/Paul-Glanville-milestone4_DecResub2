@@ -3,36 +3,12 @@
     "pk": 1,
     "model": "products.category",
     "fields": {
-      "name": "all_products",
-      "friendly_name": "All Products"
+      "name": "games",
+      "friendly_name": "Games"
     }
   },
   {
     "pk": 2,
-    "model": "products.category",
-    "fields": {
-      "name": "available_services",
-      "friendly_name": "Available Services"
-    }
-  },
-  {
-    "pk": 3,
-    "model": "products.category",
-    "fields": {
-      "name": "discount_subscriptions",
-      "friendly_name": "Discount Subscriptions"
-    }
-  },
-  {
-    "pk": 4,
-    "model": "products.category",
-    "fields": {
-      "name": "all_subscriptions",
-      "friendly_name": "All Subscriptions"
-    }
-  },
-  {
-    "pk": 5,
     "model": "products.category",
     "fields": {
       "name": "expansions",
@@ -40,7 +16,7 @@
     }
   },
   {
-    "pk": 6,
+    "pk": 3,
     "model": "products.category",
     "fields": {
       "name": "all_content",
@@ -48,7 +24,23 @@
     }
   },
   {
-    "pk": 7,
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+      "name": "available_services",
+      "friendly_name": "Available Services"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+      "name": "subscriptions",
+      "friendly_name": "Subscriptions"
+    }
+  },
+  {
+    "pk": 6,
     "model": "products.category",
     "fields": {
       "name": "new_arrivals",
@@ -56,7 +48,7 @@
     }
   },
   {
-    "pk": 8,
+    "pk": 7,
     "model": "products.category",
     "fields": {
       "name": "featured",
@@ -64,7 +56,7 @@
     }
   },
   {
-    "pk": 9,
+    "pk": 8,
     "model": "products.category",
     "fields": {
       "name": "deals",
