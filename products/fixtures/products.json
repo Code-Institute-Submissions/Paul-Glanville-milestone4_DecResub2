@@ -13,7 +13,7 @@
         }
     },
     {
-        "pk": 1,
+        "pk": 2,
         "model": "products.product",
         "fields": {
             "sku": "",
@@ -24,6 +24,356 @@
             "rating": 4,
             "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/50792-1.jpg",
             "image": "assassin's-creed-origins-xbox.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Battlefield 1 PS4",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/36619-1.jpg",
+            "image": "battlefield-1.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Battlefield 1 XBOX ONE",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/36618-1.jpg",
+            "image": "battlefield-1-xbox.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Battlefield 4 XBOX ONE",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/18164-1.jpg",
+            "image": "battlefield-4-xbox.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Battlefield 4 XBOX ONE",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/18163-1.jpg",
+            "image": "battlefield-4-xbox.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Bloodborne PS4",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/20960-1.jpg",
+            "image": "bloodborne.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Cyberpunk 2077 PS4",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/22722-1.jpg",
+            "image": "cyberpunk-2077.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Cyberpunk 2077 XBOX ONE",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/55955-1.jpg",
+            "image": "cyberpunk-2077-xbox.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Dark Souls 3 PS4",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/33364-1.jpg",
+            "image": "dark-souls-3.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Dark Souls 3 XBOX ONE",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/33365-1.jpg",
+            "image": "dark-souls-3-xbox.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Days Gone PS4",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/38442-1.jpg",
+            "image": "days-gone.jpg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Death Stranding PS4",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/38113-1.jpg",
+            "image": "death-stranding.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Destiny PS4",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/20950-1.jpg",
+            "image": "destiny.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Destiny XBOX ONE",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/20951-1.jpg",
+            "image": "destiny-xbox.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Detroit Become Human PS4",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/48142-1.jpg",
+            "image": "detroit-become-human.jpg"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Devil May Cry 5 PS4",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/60149-1.jpg",
+            "image": "devil-may-cry-5.jpg"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Devil May Cry 5 XBOX ONE",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/60172-1.jpg",
+            "image": "devil-may-cry-5-xbox.jpg"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Doom PS4",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/60172-1.jpg",
+            "image": "doom.jpg"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Doom XBOX ONE",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/60172-1.jpg",
+            "image": "doom-xbox.jpg"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Dragon Age Inquisition PS4",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/20213-1.jpg",
+            "image": "dragon-age-inquisition.jpg"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Dragon Age Inquisition XBOX ONE",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/20211-1.jpg",
+            "image": "dragon-age-inquisition-xbox.jpg"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Fallout 4 PS4",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/29225-1.jpg",
+            "image": "fallout-4.jpg"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Fallout 4 XBOX ONE",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/29226-1.jpg",
+            "image": "fallout-4-xbox.jpg"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "For Honor Gold Edition PS4",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/75839-1.jpg",
+            "image": "for-honor-gold-edition.jpg"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "For Honor Gold Edition PS4",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/75839-1.jpg",
+            "image": "for-honor-gold-edition.jpg"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "sku": "",
+            "name": "Forza Motorsport 6 XBOX ONE",
+            "description": "",
+            "price": 24.99,
+            "category": 4,
+            "rating": 4,
+            "image_url": "https://cdn.thegamesdb.net/images/thumb/boxart/front/31419-1.jpg",
+            "image": "forza-motorsport-6-xbox.jpg"
         }
     },
 }]
