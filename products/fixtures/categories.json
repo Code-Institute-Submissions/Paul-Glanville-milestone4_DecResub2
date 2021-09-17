@@ -3,24 +3,24 @@
     "pk": 1,
     "model": "products.category",
     "fields": {
-      "name": "games",
-      "friendly_name": "Games"
+      "name": "ps4",
+      "friendly_name": "PS4"
     }
   },
   {
     "pk": 2,
     "model": "products.category",
     "fields": {
-      "name": "expansions",
-      "friendly_name": "Expansions"
+      "name": "xbox-one",
+      "friendly_name": "XBOX ONE"
     }
   },
   {
     "pk": 3,
     "model": "products.category",
     "fields": {
-      "name": "all_content",
-      "friendly_name": "All Content"
+      "name": "all_games",
+      "friendly_name": "All Games"
     }
   },
   {
