@@ -12,7 +12,7 @@ def view_bag(request):
 def add_to_bag(request, item_id):
     """ Adds spcified quantity of item to the shopping bag """
 
-    product = Product.object.get(pk=item_id)
+    product = Product.objects.get(pk=item_id)
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
     bag = request.session.get('bag', {})
