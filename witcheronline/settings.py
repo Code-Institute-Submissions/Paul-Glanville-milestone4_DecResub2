@@ -55,6 +55,7 @@ INSTALLED_APPS = [
 
     # additional
     'crispy_forms',
+    'crispy_bootstrap5',
 ]
 
 MIDDLEWARE = [
@@ -68,6 +69,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'witcheronline.urls'
+
+CRISPY_ALLOWED_TEMPLATE_PACK = 'bootstrap5'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap5'
 
