@@ -40,8 +40,7 @@ def checkout(request):
                             quantity=item_data,
                         )
                         order_line_item.save()
-                except:
-                    Product.DoesNotExist:
+                except Product.DoesNotExist:
                     messages.error(request, (
                         "One of the itrems in your shopping bag wasn't found in our database"
                         "please contact us for more assistance.")

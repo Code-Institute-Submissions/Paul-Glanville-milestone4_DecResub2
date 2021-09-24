@@ -1,1 +1,1 @@
-default_app_config = 'checkout.apps.checkoutConfig'
+default_app_config = 'checkout.apps.CheckoutConfig'
