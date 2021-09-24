@@ -1,6 +1,6 @@
-var stripe_public_key = $('#id_stripe_public_key').text().slice(1, -1);
-var client_secret = $('#id_client_secret').text().slice(1, -1);
-var stripe = stripe(stripe_public_key);
+var stripePublicKey = $('#id_stripe_public_key').text().slice(1, -1);
+var clientSecret = $('#id_client_secret').text().slice(1, -1);
+var stripe = stripe(stripePublicKey);
 var elements = stripe.elements();
 
 var style = {
@@ -30,10 +30,37 @@ card.addEventListener('change', function (event) {
             <span class="icon" role="alert">
                 <i class="fas fa-times"></i>
             </span>
-            <span>${event.error.message}</span>
-        `
+            <span>${event.error.message}</span>`;
         $(errorDiv).html(html);
     } else {
         errorDiv.context = '';
     }
+});
+var form = document.getElementById("payment-form");
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
+    card.update({'disabled': true});
+    $('#submit-button').attr('disabled', true);
+    stripe.confirmCardPayment(clientSecret, {
+        payment_method: {
+            card: card,
+        }
+    }).then(function(result) {
+        if (result.error) {
+            var errorDiv = document.getElementById('card-errors');
+            var html = `
+                <span class="icon" role="alert">
+                    <i class="fas fa-times"></i>
+                </span>
+                <span>${result.error.message}</span>`;
+            $(errorDiv).html(html);
+            card.update({'disabled': false});
+            $('#submit-button').attr('disabled', false);
+        } else {
+            // The payment succeeded!
+            if (result.paymentIntent.status === 'Success') {
+                form.submit();
+            }
+        }
+    });
 });
