@@ -13,10 +13,10 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="subscription-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="game-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Games
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="subscription-link">
+            <div class="dropdown-menu border-0" aria-labelledby="game-link">
                 <a href="{% url 'products' %}?category=ps4" class="dropdown-item">PS4</a>
                 <a href="{% url 'products' %}?category=xbox_one" class="dropdown-item">Xbox One</a>
                 <a href="{% url 'products' %}?category=all_content" class="dropdown-item">All Games</a>
@@ -24,10 +24,10 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="game-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="subscriptions-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Subscriptions
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="game-link">
+            <div class="dropdown-menu border-0" aria-labelledby="subscription-link">
                 <a href="{% url 'products' %}?category=available_services" class="dropdown-item">Available Services</a>
                 <a href="{% url 'products' %}?category=subscriptions" class="dropdown-item">Subscriptions</a>
             </div>

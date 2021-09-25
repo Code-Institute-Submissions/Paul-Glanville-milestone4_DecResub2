@@ -1,0 +1,17 @@
+Hello {{ order.full_name }}
+
+This is a confirmation of your witcher online order.
+
+Order Number: {{ order.order_number }}
+Order Date: {{ order.order_date }}
+
+Order Total: {{ order.order_total }}
+Delivery Cost: {{ order.delivery_cost }}
+Grand Total: {{ order.grand_total }}
+
+Your order will be shipped to {{ order.street_address1 }}, {{ order.town_or_city }}, {{ order.country }}
+
+If you require any further Assistance please contact us at {{ contact_email }}
+
+Kind regards
+Witcher Online.

@@ -105,8 +105,8 @@ def checkout(request):
                     'street_address2': profile.user.default_street_address2,
                     'county': profile.user.default_county,
                 })
-                except UserProfile.DoesNotExist:
-                    order_form = OrderForm()
+            except UserProfile.DoesNotExist:
+                order_form = OrderForm()
         else:
             order_form = OrderForm()
 
@@ -128,7 +128,7 @@ def checkout_success(request, order_number):
     order = get_object_or_404(Order, order_number=order_number)
 
     if request.use.is_authenticated:
-        profile = UserProfile..objects.get(user=request.user)
+        profile = UserProfile.objects.get(user=request.user)
         order.user_profile = profile
         order.save()
         if save_info:
