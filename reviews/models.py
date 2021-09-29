@@ -20,3 +20,6 @@ class ItemReviews(models.Model):
     comment = models.CharField(max_lenght=1000, null=False, blank=False)
     rating = models.IntegerField(choices=options)
     date_posted = models.DateTimeField(auto_add_now=True)
+
+    def __str__(self):
+        return self.header
