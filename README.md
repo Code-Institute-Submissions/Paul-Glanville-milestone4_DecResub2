@@ -16,7 +16,7 @@
 
 ## Wireframes
 
-
+[Project wireframes](/static/wireframes/)wireframes are in the wireframes file as png images
 
 ---
 
