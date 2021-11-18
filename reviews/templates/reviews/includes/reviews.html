@@ -1,5 +1,19 @@
 <div class="row mx-auto mt-5">
     <div class="col-sm-10 offset-sm-2 col-md-8 col-offset-md-2">
-        <div class="review-title logo-font font-weight-bold m-2 p-4"></div>
+        <div class="review-title logo-font font-weight-bold m-2 p-4">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </div>
+        <hr>
+        {% if reviews %}
+            <div class="row">
+                {% for reviews in review %}
+                    <div class="col-12"></div>
+                {% endfor %}
+            </div>
+        {% endif %}
     </div>
 </div>
