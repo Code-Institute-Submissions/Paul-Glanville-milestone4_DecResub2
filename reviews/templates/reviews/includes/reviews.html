@@ -15,7 +15,9 @@
                         <div class="review-notification px-3">
                         </div>
                         {% if request.user == review.user.user or request.user.iser_superuser %}
-                            <div class="text-left edit-review px-2"></div>
+                            <div class="text-left edit-review px-2">
+                                <a href="{% url 'edit_review' review.pk %}">Edit</a>
+                            </div>
                         {% endif %}
                     </div>
                 {% endfor %}
