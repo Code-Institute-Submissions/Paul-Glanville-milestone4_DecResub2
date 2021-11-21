@@ -4,7 +4,7 @@ from products.models import Product
 from profiles.models import UserProfile
 
 
-class product(models.Model):
+class Product(models.Model):
     name = models.CharField(max_length=255)
     category = models.ManyToManyField(Category, related_name='products')
     created = models.DateField(auto_now_add=True)
