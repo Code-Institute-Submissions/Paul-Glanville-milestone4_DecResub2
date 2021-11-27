@@ -28,6 +28,5 @@ class ItemReviews(models.Model):
     rating = models.IntegerField(choices=options)
     date_posted = models.DateTimeField(auto_now_add=True)
 
-
     def __str__(self):
         return self.header
