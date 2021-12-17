@@ -24,7 +24,7 @@ class WishlistItem(models.Model):
                                 on_delete=models.CASCADE,
                                 related_name='wishlist_products')
 
-    wishlist = models.ForeignKey(Wishlist, null=False, blank=False,
+    wishlist = models.ForeignKey(wishlist, null=False, blank=False,
                                  on_delete=models.CASCADE,
                                  related_name='wishlist_items')
 
@@ -38,4 +38,4 @@ def create_or_update_user_wishlist(sender, instance, created, **kwargs):
     Create wishlist when user signs up
     """
     if created:
-        Wishlist.objects.create(user=instance)
+        wishlist.objects.create(user=instance)
